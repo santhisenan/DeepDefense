@@ -1,2 +1,3 @@
 datasets
 *.csv
+__pycache__

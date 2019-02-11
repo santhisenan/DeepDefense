@@ -13,7 +13,7 @@ from keras.utils import np_utils
 import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
 
-data = pd.read_csv('./dataset.csv')
+data = pd.read_csv('./balanced_big_dataset_sample.csv')
 
 # data.drop("Unnamed: 0", axis=1, inplace=True)
 # data.drop("Unnamed: 0.1", axis=1, inplace=True)
